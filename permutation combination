@@ -38,3 +38,9 @@ ll nCk(ll n, ll k, ll p){
 }
 
 
+use dp to create factorial and dont forget to use mod while calculating factorial values
+
+facto[0] = 1;
+for(int i = 1; i < 200001; i++)
+    facto[i] = i*facto[i - 1]%mod;
+
