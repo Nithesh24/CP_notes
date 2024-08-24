@@ -1,0 +1,8 @@
+
+to find for large numbers with modulo
+long long binomial_coefficient(int n, int k) {
+    return factorial[n] * inverse(factorial[k] * factorial[n - k] % mod) % mod;
+}
+
+https://cp-algorithms.com/combinatorics/binomial-coefficients.html#computing-binomial-coefficients-modulo-m 
+refer this site for more info related to calculating combinations
