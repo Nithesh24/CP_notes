@@ -1,0 +1,5 @@
+-Follow this algo to write clean recursion that can be memorized and then tabulized (worked everytime so far)
+
+1. Write problem in terms of index
+2. do all possible operation at a index
+3. take max/min/sum after all the operations
