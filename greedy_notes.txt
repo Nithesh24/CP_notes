@@ -1,0 +1,5 @@
+- greedy is basically taking local optima at each step to get global optima
+- to prove your greedy approach is wrong best way to find counter test case (its tricky in some cases)
+
+** |i - j | + |j - k| = |i - k| if i <= j <= k (very important)
+	similar one is if can jump a to b taking value in between that will reach <= b is point less
