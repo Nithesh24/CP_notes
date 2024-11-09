@@ -3,3 +3,5 @@
 
 ** |i - j | + |j - k| = |i - k| if i <= j <= k (very important)
 	similar one is if can jump a to b taking value in between that will reach <= b is point less
+
+- silly mistake : number of prime factors doesn't increase with increase in number
